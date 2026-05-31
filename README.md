@@ -177,4 +177,19 @@ Contributions, ideas, and suggestions are welcome.
 ✅ Smart categorization system working
 ✅ Dashboard analytics active
 ✅ Authentication system integrated
+
+## 🎥 Project Demo
+
+Watch the complete demo and walkthrough of LifeSort here:
+
+🔗 https://youtu.be/CGPKH_V6ous?si=3UUJKm3SVzZUDrEf
+
+### Demo Highlights
+- AI-powered voice transcription
+- Smart task categorization
+- Mood and sentiment analysis
+- Interactive dashboard analytics
+- Authentication system
+- Automated reminders and scheduling
+- Full frontend and backend workflow
 # 💡 LifeSort — Because your thoughts deserve structure.
