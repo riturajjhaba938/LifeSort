@@ -92,21 +92,21 @@ LifeSort/
 ├── render.yaml
 └── vercel.json
 
-⚡ How It Works
+## ⚡ How It Works
 User speaks naturally into the app
 Audio is transcribed instantly
 AI extracts tasks, reminders, and emotional insights
 Data gets categorized intelligently
 Dashboard displays summaries and analytics
 Automated reminders are generated
-🔮 Future Roadmap
+## 🔮 Future Roadmap
 📅 Google Calendar & Outlook Integration
 🌍 Multi-language Voice Support
 ⌚ Wearable Device Synchronization
 🧠 Advanced Sentiment & Wellness Modeling
 📈 AI-powered productivity insights
-👨‍💻 Meet the Team
-🧩 Rituraj Jha — Team Lead & Systems Architect
+## 👨‍💻 Meet the Team
+### 🧩 Rituraj Jha — Team Lead & Systems Architect
 Backend Routing
 AI Integrations
 System Architecture
@@ -114,21 +114,21 @@ System Architecture
 🔗 LinkedIn:
 https://www.linkedin.com/in/rituraj-jha-0048ab372/
 
-🎨 Aisha Bhaktani — Lead Frontend Developer
+### 🎨 Aisha Bhaktani — Lead Frontend Developer
 Responsive UI Design
 Dashboard Development
 
 🔗 LinkedIn:
 https://www.linkedin.com/in/aisha-bhaktani-8145672b5
 
-🔐 Anushka Shukla — Authentication Systems Specialist
+### 🔐 Anushka Shukla — Authentication Systems Specialist
 Supabase Google OAuth 2.0 Integration
 Zustand State Management
 
 🔗 LinkedIn:
 https://www.linkedin.com/in/anushka-shukla-661679320/
 
-🧪 Saksham Choudhary — QA & Operations Research
+### 🧪 Saksham Choudhary — QA & Operations Research
 API Testing
 Validation
 Documentation
@@ -136,29 +136,30 @@ Documentation
 🔗 LinkedIn:
 https://in.linkedin.com/in/saksham-choudhary-718886373
 
-🚀 Deployment
-Frontend
+## 🚀 Deployment
+### Frontend
 
 Deployed using Vercel
 
-Backend
+### Backend
 
 Deployed using Render
 
-🛠️ Installation
-Clone Repository
+## 🛠️ Installation
+### Clone Repository
 git clone https://github.com/Anushka-source/LifeSort.git
-Install Frontend Dependencies
+### Install Frontend Dependencies
 cd client
 npm install
-Install Backend Dependencies
+### Install Backend Dependencies
 cd ../server
 npm install
-Run Frontend
+### Run Frontend
 npm run dev
-Run Backend
+### Run Backend
 npm run start
-🤝 Contribution
+
+## 🤝 Contribution
 
 Contributions, ideas, and suggestions are welcome.
 1.Fork the repository
@@ -166,12 +167,12 @@ Contributions, ideas, and suggestions are welcome.
 3.Commit your changes
 4.Push the branch
 5.Open a Pull Request
-📌 Current Status
+
+## 📌 Current Status
 
 ✅ Fully deployed
 ✅ AI voice transcription integrated
 ✅ Smart categorization system working
 ✅ Dashboard analytics active
 ✅ Authentication system integrated
-
-💡 LifeSort — Because your thoughts deserve structure.
+# 💡 LifeSort — Because your thoughts deserve structure.
