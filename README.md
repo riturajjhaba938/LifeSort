@@ -1,16 +1,177 @@
-# React + Vite
+# 🚀 LifeSort — AI Powered Life Management Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> “Talk to your phone. Let AI sort your life.”
 
-Currently, two official plugins are available:
+LifeSort is an AI-powered productivity and life management companion that transforms unstructured voice thoughts into organized, actionable insights. Instead of manually typing notes, reminders, or tasks, users can simply speak naturally — and LifeSort intelligently categorizes, analyzes, secures, and manages everything automatically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Problem Statement
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modern productivity tools create friction instead of reducing it.
 
-## Expanding the ESLint configuration
+- Typing tasks manually is time-consuming
+- Thoughts remain scattered across apps
+- Traditional to-do apps only store data — they don’t understand it
+- Users struggle with cognitive overload and poor organization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+LifeSort solves this by using AI-driven voice processing and intelligent categorization.
+
+---
+
+## ✨ Features
+
+### 🎙️ Voice Brain Dump
+Capture thoughts naturally through voice input with real-time transcription.
+
+### 🧠 AI Categorization
+Automatically categorizes logs into:
+- Work
+- Health
+- Finance
+- Relationships
+- Personal
+
+using **Llama 3.1 AI models**.
+
+### 😊 Mood Tracking
+Analyzes emotional sentiment from speech and visualizes wellness trends.
+
+### 🔐 Secure Architecture
+Uses encrypted transcript handling with secure authentication systems.
+
+### ⏰ Smart Reminders
+Daily summaries and high-priority reminders powered through automated scheduling systems.
+
+### 📊 Dashboard Analytics
+Interactive charts and analytics for productivity and emotional tracking.
+
+---
+
+## 🏗️ Technical Architecture
+
+### Frontend
+- React
+- Expo Web
+- TypeScript
+- Zustand
+
+### Backend
+- Node.js
+- Express.js
+- Prisma ORM
+
+### Database
+- PostgreSQL (Supabase)
+- pgvector
+
+### AI/ML
+- Groq Whisper Large V3
+- Llama 3.1 8B
+
+### Security
+- Supabase Authentication
+- JWT Authentication
+- AES-256 Encryption
+
+### Deployment
+- Vercel (Frontend)
+- Render (Backend)
+- GitHub CI/CD
+
+---
+
+## 📂 Project Structure
+
+```bash
+LifeSort/
+│
+├── client/        # Frontend application
+├── server/        # Backend APIs and services
+├── README.md
+├── render.yaml
+└── vercel.json
+
+⚡ How It Works
+User speaks naturally into the app
+Audio is transcribed instantly
+AI extracts tasks, reminders, and emotional insights
+Data gets categorized intelligently
+Dashboard displays summaries and analytics
+Automated reminders are generated
+🔮 Future Roadmap
+📅 Google Calendar & Outlook Integration
+🌍 Multi-language Voice Support
+⌚ Wearable Device Synchronization
+🧠 Advanced Sentiment & Wellness Modeling
+📈 AI-powered productivity insights
+👨‍💻 Meet the Team
+🧩 Rituraj Jha — Team Lead & Systems Architect
+Backend Routing
+AI Integrations
+System Architecture
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/rituraj-jha-0048ab372/
+
+🎨 Aisha Bhaktani — Lead Frontend Developer
+Responsive UI Design
+Dashboard Development
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/aisha-bhaktani-8145672b5
+
+🔐 Anushka Shukla — Authentication Systems Specialist
+Supabase Google OAuth 2.0 Integration
+Zustand State Management
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/anushka-shukla-661679320/
+
+🧪 Saksham Choudhary — QA & Operations Research
+API Testing
+Validation
+Documentation
+
+🔗 LinkedIn:
+https://in.linkedin.com/in/saksham-choudhary-718886373
+
+🚀 Deployment
+Frontend
+
+Deployed using Vercel
+
+Backend
+
+Deployed using Render
+
+🛠️ Installation
+Clone Repository
+git clone https://github.com/Anushka-source/LifeSort.git
+Install Frontend Dependencies
+cd client
+npm install
+Install Backend Dependencies
+cd ../server
+npm install
+Run Frontend
+npm run dev
+Run Backend
+npm run start
+🤝 Contribution
+
+Contributions, ideas, and suggestions are welcome.
+1.Fork the repository
+2.Create a new branch
+3.Commit your changes
+4.Push the branch
+5.Open a Pull Request
+📌 Current Status
+
+✅ Fully deployed
+✅ AI voice transcription integrated
+✅ Smart categorization system working
+✅ Dashboard analytics active
+✅ Authentication system integrated
+
+💡 LifeSort — Because your thoughts deserve structure.
