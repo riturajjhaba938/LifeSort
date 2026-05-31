@@ -92,6 +92,8 @@ LifeSort/
 ├── render.yaml
 └── vercel.json
 
+```
+
 ## ⚡ How It Works
 User speaks naturally into the app
 Audio is transcribed instantly
