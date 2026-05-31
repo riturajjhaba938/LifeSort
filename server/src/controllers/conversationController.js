@@ -3,7 +3,8 @@ import { TEEService } from '../services/teeService.js';
 import { transcribeAudio } from '../services/whisperService.js';
 import { llmOrchestrator } from '../services/llmOrchestrator.js';
 import fs from 'fs';
-
+import os from 'os';
+import path from 'path';
 export const uploadConversation = async (req, res, next) => {
   try {
     if (!req.file) {
@@ -14,7 +15,7 @@ export const uploadConversation = async (req, res, next) => {
     // we need to temporarily write to disk for OpenAI API or switch to Buffer uploads.
     // For now, write a temp file.
     const ext = req.file.originalname?.split('.').pop() || 'webm';
-    const tempFilePath = `/tmp/${req.user.id}_${Date.now()}.${ext}`;
+    const tempFilePath = path.join(os.tmpdir(), `${req.user.id}_${Date.now()}.${ext}`);
     fs.writeFileSync(tempFilePath, req.file.buffer);
 
     // 1. Whisper STT
